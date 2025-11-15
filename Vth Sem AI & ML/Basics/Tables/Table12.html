@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Nested Table</title>
+
+    <style>
+        table,
+        tr,
+        td {
+            border-collapse: collapse;
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 style="text-align: center;">Nested Table Heading</h1>
+    <table align="center">
+        <tr>
+            <td><b>Table Heading</b></td>
+            <td style="text-align: center;"><b>Table Heading</b></td>
+            <td><b>Table Heading</b></td>
+        </tr>
+        <tr>
+            <td>Table data</td>
+            <td>Table data</td>
+            <td>Table data</td>
+        </tr>
+        <tr>
+            <td>Table data</td>
+            <td>
+                <table>
+                    Table Data
+                    <tr>
+                        <td><b>Table Heading</b></td>
+                        <td><b>Table Heading</b></td>
+                        <td><b>Table Heading</b></td>
+                    </tr>
+                    <tr>
+                        <td>Table Data</td>
+                        <td>Table Data</td>
+                        <td>Table Data</td>
+                    </tr>
+                    <tr>
+                        <td>Table Data</td>
+                        <td>Table Data</td>
+                        <td>Table Data</td>
+                    </tr>
+                    <tr>
+                        <td>Table Data</td>
+                        <td>Table Data</td>
+                        <td>Table Data</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Table data</td>
+            <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+            </tr>
+    </table>
+</body>
+
+</html>

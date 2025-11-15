@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Table</title>
+
+    <style>
+        table,td,tr{
+            border-collapse: collapse;
+            border: 2px solid black;
+            padding: 6px;
+            height: 10px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Example:Nested</h1>
+    <table align="center">
+        <tr>
+            <td rowspan="2" colspan="2">CI</td>
+            <td rowspan="2">All Genders</td>
+            <td colspan="2">By Gender</td>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>Males</td>
+                        <td>Females</td>
+                    </tr>
+                    <tr>
+                        <td>9215604</td>
+                        <td>4512358</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>Rural</td>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+        </tr>
+    </table>
+</body>
+</html>

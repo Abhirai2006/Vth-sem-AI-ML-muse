@@ -1,0 +1,32 @@
+/* Selects using name of the attribute and not the value of the attribute. */
+
+ /* h1[title]{
+    background-color: brown;
+}  */
+
+/* h1[title = "Article one"]{
+    background-color: blue;
+}  */
+
+/* It will look for the entire string and not a substrong  */
+
+/*
+ h1[title ~= "Article"]{
+    background-color: aqua;
+} */
+
+/* h1[title ~= "Art"]{
+    background-color: aqua;
+} */
+
+
+/* h1[title $= "one"]{
+    background-color: aqua;
+}  *.
+
+/* Checks for a substring and not the entire string. */
+
+/*
+h1[title *= "cle"]{
+    background-color: aqua;
+}*/

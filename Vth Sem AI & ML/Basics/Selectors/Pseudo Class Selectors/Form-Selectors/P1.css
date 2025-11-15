@@ -1,0 +1,28 @@
+ /* *{
+    margin: 0px;
+    padding: 0px;
+}  */
+
+button:enabled{
+    background-color: aqua;
+}
+
+button:disabled{
+    background-color: silver;
+}
+
+input:checked+label{
+    background-color: lightgreen;  
+}
+
+/* This is just like a sibling selector */
+
+input:invalid{
+    color: hotpink;
+}
+
+input:required{
+    background-color: mediumaquamarine;
+}
+
+/* :read-only is not used that often */

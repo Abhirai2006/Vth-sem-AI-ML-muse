@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Table</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <style>
+        Internal CSS
+        table,
+        thead,
+        tr,
+        td {
+            border-collapse: collapse;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        p
+        {
+            text-align: center;
+            font-weight: bold;
+        }
+
+    </style> -->
+
+</head>
+
+<body>
+    <p>Nested Table Example</p>
+    <table align="center">
+        <tr>
+            <div>
+                <td rowspan="2">Station</td>
+                <td colspan="2">Temperature</td>
+                <td rowspan="2">Humidity</td>
+                <td rowspan="2">Weather</td>
+            </div>
+
+        </tr>
+        <tr>
+            <td>Max</td>
+            <td>Min</td>
+        </tr>
+        <tr>
+            <td>USA</td>
+            <td>24</td>
+            <td>19</td>
+            <td>60%</td>
+            <td>Cloudy</td>
+        </tr>
+        <tr>
+            <td>Germany</td>
+            <td>5</td>
+            <td>-1</td>
+            <td>70%</td>
+            <td>Rainy</td>
+        </tr>
+    </table>
+</body>
+
+</html>

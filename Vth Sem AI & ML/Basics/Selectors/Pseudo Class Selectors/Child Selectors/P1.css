@@ -1,0 +1,22 @@
+/* ul li:first-child{
+    color: blue;
+    font-size: 2rem;
+}
+
+ ul li:last-child{
+    background-color: blueviolet;
+    font-size: 2rem;
+} */
+
+ /* p:only-child{
+    background-color:aqua;
+    font-size: 1rem;
+} */
+
+ /* ul ol li:nth-child(3){
+    background-color: cornflowerblue;
+} */
+
+ /* ul li:nth-last-child(){
+    background-color: red;
+}     */

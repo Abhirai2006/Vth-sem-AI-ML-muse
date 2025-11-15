@@ -1,0 +1,25 @@
+h1::first-letter{
+    font-size: 4rem;
+
+}
+
+p::first-line{
+    color: blue;
+    font-size: 4rem;
+    font-style: italic;
+}
+
+p::before{
+    content: "my first name added here";
+}
+
+p::after{
+    content: "My last name added here";
+    font-weight:900;
+    font-style: italic;
+    font-size: 3rem;
+}
+
+::selection{
+    color: burlywood;
+}   

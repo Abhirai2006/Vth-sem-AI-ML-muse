@@ -1,0 +1,32 @@
+/* body h2:first-of-type{
+    background-color: palevioletred;
+} */
+
+ /* body h2:last-of-type{
+    background-color: red;
+} */
+
+ /* body h3:only-of-type{
+    background-color: aqua;
+} */
+
+ /* body h2:nth-last-of-type(1){
+    background-color: blueviolet;
+    font-size: 2rem;
+} */
+
+/* body p:nth-of-type(2){
+    background-color: aquamarine;
+    font-size: 1rem;
+} */
+
+article :not(p,h1){
+    font-size: 1rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: aquamarine;
+}    
+
+ body > article > p:nth-of-type(2)
+{
+
+} 

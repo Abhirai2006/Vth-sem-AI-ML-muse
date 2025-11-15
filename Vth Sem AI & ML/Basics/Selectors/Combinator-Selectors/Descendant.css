@@ -1,0 +1,43 @@
+/* Descendant */
+/* section p{
+    color: blueviolet;
+    font-size: 3rem;
+}   */
+
+/* Child */
+  /* section > p{
+    color: cadetblue;
+    font-size: 2rem;
+}    */
+
+/* Sibling */
+
+/* section ? */
+
+ /* article + p {  
+    color: aquamarine;
+    font-size: 3rem;
+}  */
+
+/* NOTE - Only the next direct sibling not all the siblings and not the one before them. */
+/* Sibling */
+
+ /* h1 + p{
+    font-size: 4rem;
+}  */
+
+/*  General */
+
+/* h1 ~ p{
+    background-color: brown;
+    font-size: 2rem;
+} */
+
+
+/* h1 ~ p, article{
+    background-color: brown;
+    font-size: 2rem;
+} */
+
+
+/* Descendant, Child, Sibling, General */

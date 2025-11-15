@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic vs Non-Semantic HTML</title>
+  <style>
+    header, nav, main, article, section, footer {
+      border: 1px solid black;
+      margin: 5px;
+      padding: 10px;
+    }
+    .non-semantic div, .non-semantic span {
+      border: 1px dashed blue;
+      margin: 5px;
+      padding: 10px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>Semantic HTML Example</h1>
+  <header>
+    <h2>Website Header</h2>
+  </header>
+  
+  <nav>
+    <a href="#">Home</a> | 
+    <a href="#">About</a> | 
+    <a href="#">Contact</a>
+  </nav>
+  
+  <main>
+    <article>
+      <h3>Article Title</h3>
+      <section>
+        <p>This is a section inside the article.</p>
+      </section>
+    </article>
+  </main>
+  
+  <footer>
+    <p>© 2025 My Website</p>
+  </footer>
+</body>
+</html>

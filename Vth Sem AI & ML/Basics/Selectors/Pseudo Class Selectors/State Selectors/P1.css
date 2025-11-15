@@ -1,0 +1,18 @@
+/* This is the default state of an anchor tag. */
+
+a:link{
+    color:cadetblue;
+}
+
+a:hover{
+    color:aqua;
+    text-decoration: none;
+}
+
+a:active{
+    color: deepskyblue;
+}
+
+a:visited{
+    color: grey;
+}

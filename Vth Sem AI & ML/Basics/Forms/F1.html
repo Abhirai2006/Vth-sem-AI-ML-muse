@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+
+    <style>
+        label {
+            font-weight: bold;
+            display: inline-block;
+            width: 150px;
+            text-align: left;
+        }
+
+        form {
+            text-align: left;
+            width: 400px;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: cadetblue;
+        }
+
+        fieldset {
+            width: 15cm;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Student details form</h1>
+
+    <form action="/Forms/F3.html">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="tushar">1. First name:</label>
+            <input id="tushar" type="text" placeholder="Enter your First name" required>
+            <br><br>
+
+            <label for="Second Name">2. Second name:</label>
+            <input type="text" id="Second Name" placeholder="Enter your Second name" required>
+            <br><br>
+
+            <label for="Age">3. Age:</label>
+            <input type="number" id="Age" max="100" min="0" placeholder="Age" required>
+            <br><br>
+
+            <label for="password">4. Password:</label>
+            <input type="password" id="password" maxlength="18" minlength="5" placeholder="Enter a strong password"
+                required>
+            <br><br>
+
+            <label for="email">5. Email:</label>
+            <input type="email" id="email" placeholder="abc@gmail.com" required>
+            <br><br>
+
+            <label for="dob">6. DOB:</label>
+            <input type="date" id="dob">
+            <br><br>
+
+            <label for="hobbies">7. Hobbies:</label>
+            <input type="checkbox" value="Reading"> Reading
+            <input type="checkbox" value="Sports"> Sports
+            <input type="checkbox" value="Music"> ABC
+            <input type="checkbox" value="Traveling"> Traveling
+
+            <br><br>
+
+            <label for="address">8. Address</label>
+            <textarea name="address" id="address" placeholder="enter your address" required></textarea>
+
+            <br><br>
+
+            <label for="pno">9.Phone Number</label>
+            <input type="tel" id="pno" maxlength="10" placeholder="9876543210" required>
+
+            <br><br>
+
+            <label for="gender">10. Gender</label>
+            <input type="radio" value="male" name="gender">male
+            <input type="radio" value="female" name="gender">female
+            <input type="radio" value="other" name="gender">other
+
+            <br><br>
+        
+            <input type="submit">
+
+            <input type="reset">
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+.success{
+    color: green;
+}
+.error{
+    color: red;
+}
+.error-404{
+    color: orange;
+}

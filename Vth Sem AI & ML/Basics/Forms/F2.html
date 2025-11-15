@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      background-color: #d6eaf8;
+      padding: 15px;
+      border-radius: 8px;
+      width: 50%;
+      margin: 20px auto;
+    }
+
+    form {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+      width: 50%;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"],
+    input[type="date"],
+    select,
+    textarea {
+      width: 96%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+
+    input[type="radio"] {
+      margin-right: 5px;
+    }
+
+    textarea {
+      height: 60px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+      background-color: #5dade2;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      margin-top: 15px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    input[type="submit"]:hover,
+    input[type="reset"]:hover {
+      background-color: #2e86c1;
+    }
+
+    .buttons {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Student Registration Form</h1>
+
+  <form action="#">
+    <label>1. Full Name:</label>
+    <input type="text" name="fullname" placeholder="Enter your name" required>
+
+    <label>2. Age:</label>
+    <input type="number" name="age" min="10" max="100" placeholder="Enter your age">
+
+    <label>3. Gender:</label>
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <input type="radio" name="gender" value="Other"> Other
+
+    <label>4. Email:</label>
+    <input type="email" name="email" placeholder="Enter your email" required>
+
+    <label>5. Password:</label>
+    <input type="password" name="password" placeholder="Enter a strong password" required>
+
+    <label>6. Date of Birth:</label>
+    <input type="date" name="dob">
+
+    <label>7. Course:</label>
+    <select name="course">
+      <option value="">-- Select Course --</option>
+      <option>B.Tech</option>
+      <option>B.Sc</option>
+      <option>BCA</option>
+      <option>MCA</option>
+      <option>MBA</option>
+    </select>
+
+    <label>8. Hobbies:</label>
+    <input type="checkbox" name="hobby" value="Reading"> Reading
+    <input type="checkbox" name="hobby" value="Sports"> Sports
+    <input type="checkbox" name="hobby" value="Music"> Music
+    <input type="checkbox" name="hobby" value="Traveling"> Traveling
+
+    <label>9. Address:</label>
+    <textarea name="address" placeholder="Enter your address"></textarea>
+
+    <label>10. Phone Number:</label>
+    <input type="text" name="phone" placeholder="Enter your phone number" maxlength="10">
+
+    <div class="buttons">
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </div>
+  </form>
+
+</body>
+</html>
